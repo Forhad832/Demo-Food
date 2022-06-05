@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600;1,800&family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- bootsrtap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-light-lg" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="img-fluid d-block d-md-none w-50"
+              src="./images/wood-logo-white.svg"
+              alt="" />
+            <div class="d-none d-md-block">
+              <i class="text-white bi bi-search"></i>
+              <i class="text-white bi bi-heart"></i></div
+          ></a>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white fs-5"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white fs-5"
+                  aria-current="page"
+                  href="#"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white fs-5"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item w-50">
+                <a href="" class="navbar-brand"
+                  ><img
+                    class="img-fluid 0"
+                    src="./images/wood-logo-white.svg"
+                    alt=""
+                /></a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fs-5"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Pges</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fs-5"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Element</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fs-5"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Buy</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex align-items-center">
+              <p><i class="fs-5 me-2 bi bi-person text-white"></i></p>
+              <p><i class="fs-5 me-2 bi bi-cart text-white"></i></p>
+              <p>$0.00</p>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center hero">
+          <div class="col-8 text-center mx-auto">
+            <h3
+              style="font-size: 24px; letter-spacing: 2.5px; line-height: 1.5;"
+            >
+              ARTWORK IS A LANSCAPE OF IDEAS
+            </h3>
+            <h1 style="font-size: 70px; ">
+              Italian Cuisine Tradition <br /><span class="font"
+                >& Cultural Events</span
+              >
+            </h1>
+            <button class="btn btn-primary">See Our Menu</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- about section start -->
+    <!-- about section start -->
+    <section>
+      <div class="container-fluid">
+        <div class="row py-5">
+          <div class="col-12 col-md-4 d-flex flex-column flex-md-row mb-5">
+            <img
+              class="img-fluid w-100 w-md-50 mb-5"
+              src="./images/food-image-1.jpg.webp"
+              alt=""
+            />
+            <img
+              class="img-fluid w-100 w-md-50 ms-md-5 position-relative top-img"
+              src="./images/food-image-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-8 mb-5 px-5 text-center">
+            <img class="img-fluid" src="./images/about img.png" alt="" />
+            <h4 class="mb-4"><i>Welcome to our site</i></h4>
+            <h2 class="mb-4">About Our <strong>Restaurant</strong></h2>
+            <p class="" style="font-family:sans-serif ; line-height: 1.5;">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don’t look even
+              slightly believable. If you are going to use a passage.
+            </p>
+            <img
+              src="./images/food-signature-177x46.png"
+              class="mt-5 img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-5">
+            <h1 class="mb-4" style="font-size:60px ; ">
+              Video journey to Italian
+              <span style="font-family: 'Playfair Display', serif;"
+                >Classic cuisine.</span
+              >
+            </h1>
+            <p class="mb-4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don’t look even.
+            </p>
+            <a href="" class="button">Read More</a>
+            <a href="" class="button btn-secondary ms-3">click Me</a>
+          </div>
+          <div class="col-12 col-md-6 mb-5">
+            <img
+              src="./images/gallery 2.jpg.webp"
+              class="img-fluid zoom"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="text-center">
+          <h3 class="mb-4" style="font-family: 'Playfair Display', serif;">
+            Recommendations
+          </h3>
+          <h2>Our Featured <strong>Meals</strong></h2>
+          <p>
+            It has survived not only five centuries, but also the leap into
+            <br />
+            electronic typesetting, remaining essentially uncha.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card text-center border-0">
+              <div class="px-5">
+                <img
+                  class="img-fluid"
+                  src="./images/food-produt1.webp"
+                  alt=""
+                />
+              </div>
+              <div class="position-relative">
+                <div
+                  class="div d-flex justify-content-center opacity-0 shadow-lg py-2 position-absolute bottom-0 start-50 translate-middle p-3 bg-white"
+                >
+                  <i class="bi bi-cart"></i>
+                  <i class="bi bi-search"></i>
+                  <i class="bi bi-shuffle"></i>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+              <p class="card-text">Aliquert ronhons</p>
+              <p class="card-text"><small>Food</small></p>
+              <p class="card-text" style="color:  rgb(72, 97, 3);">$125.00</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-5">
+            <div class="card text-center border-0">
+              <div class="px-5">
+                <img
+                  class="img-fluid"
+                  src="./images/food-produt1.webp"
+                  alt=""
+                />
+              </div>
+              <div class="position-relative">
+                <div
+                  class="div d-flex justify-content-center opacity-0 shadow-lg py-2 position-absolute bottom-0 start-50 translate-middle p-3 bg-white"
+                >
+                  <i class="bi bi-cart"></i>
+                  <i class="bi bi-search"></i>
+                  <i class="bi bi-shuffle"></i>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+              <p class="card-text">Aliquert ronhons</p>
+              <p class="card-text"><small>Food</small></p>
+              <p class="card-text" style="color:  rgb(72, 97, 3);">$125.00</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center border-0">
+              <div class="px-5">
+                <img
+                  class="img-fluid"
+                  src="./images/food-produt1.webp"
+                  alt=""
+                />
+              </div>
+              <div class="position-relative">
+                <div
+                  class="div d-flex justify-content-center opacity-0 shadow-lg py-2 position-absolute bottom-0 start-50 translate-middle p-3 bg-white"
+                >
+                  <i class="bi bi-cart"></i>
+                  <i class="bi bi-search"></i>
+                  <i class="bi bi-shuffle"></i>
+                  <i class="bi bi-heart"></i>
+                </div>
+              </div>
+              <p class="card-text">Aliquert ronhons</p>
+              <p class="card-text"><small>Food</small></p>
+              <p class="card-text" style="color:  rgb(72, 97, 3);">$125.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row g-0 h-100 w-100">
+          <div class="col-12 col-md-2 mb-5 overflow-hidden">
+            <div class="position-relative">
+              <img
+                src="./images/gallery-image-1jpg.jpg"
+                class="img-fluid zoom position-md-absolute top-0 left-0"
+                alt=""
+              />
+              <div class="position-absolute top-0 p-3">
+                <h4 class="text-gray mb-3">Check out</h4>
+                <h2 class="text-white mb-4">NEW ARRIVALAS TO THE SHOP</h2>
+                <a
+                  href=""
+                  class="btn border-3 border-secondary text-white hover:border-white"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-5 overflow-hidden">
+            <div class="col">
+              <img
+                src="./images/gallery 2.jpg.webp"
+                class="img-fluid zoom"
+                alt=""
+              />
+            </div>
+            <div style="height: 50%;" class="text-center bg-dark p-3">
+              <h4 class="text-white mb-3 fs-6">YOUR PERSONAL</h4>
+              <h2 class="text-white mb-3">LIFESTYLE</h2>
+              <p class="text-white">
+                Synistically synhesize andated infmation with turnkey.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-5 overflow-hidden">
+            <div style="height: 50%;" class="text-center bg-dark p-3">
+              <h4 class="text-white mb-3 fs-6">YOUR PERSONAL</h4>
+              <h2 class="text-white mb-3">LIFESTYLE</h2>
+              <p class="text-white">
+                Synistically synhesize andated infmation with turnkey.
+              </p>
+            </div>
+            <div class="col">
+              <img
+                src="./images/gallery 2.jpg.webp"
+                class="img-fluid zoom"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-5 overflow-hidden">
+            <div class="position-relative">
+              <img
+                src="./images/gallery 4.jpg.webp"
+                class="img-fluid zoom position-md-absolute top-0 left-0"
+                alt=""
+              />
+              <div class="position-absolute top-0 p-3">
+                <h4 class="text-gray mb-3">Check out</h4>
+                <h2 class="text-white mb-4">NEW ARRIVALAS TO THE SHOP</h2>
+                <a
+                  href=""
+                  class="btn border-3 border-secondary text-white hover:border-white"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="text-center">
+            <h3 class="mb-4" style="font-family: 'Playfair Display', serif;">
+              Dinner menu
+            </h3>
+            <h2>Our New <strong>Offers</strong></h2>
+            <p>
+              All the Lorem Ipsum generators on the Internet tend <br />
+              to repeat predefined chunks as necessary, making this the first
+              gen.
+            </p>
+            <div class="d-inline-block">
+              <a href="" class="me-2">Featured</a>
+              <a href="" class="me-2">Side Dishes</a>
+              <a href="" class="me-2">Entree Salad</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-5">
+          <div class="col-12 col-md-6 mb-5 px-3">
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-5 px-3">
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <div class="col-3">
+                <img class="img-fluid" src="./images/menu 1.webp" alt="" />
+              </div>
+              <div class="col-9">
+                <div class="d-flex justify-content-between">
+                  <div><h4 class="fs-5">Braised pork osso buco</h4></div>
+                  <div><h4 class="fs-5">$20</h4></div>
+                </div>
+                <hr />
+                <p>
+                  <i
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate qui tempora asperiores ratione ipsum optio quod
+                    laborum necessitatibus autem magni!</i
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-blog">
+      <div class="container">
+        <div class="row">
+          <div class="text-center text-white">
+            <h2
+              style="font-size: 80px; font-weight: 700; color: white;"
+              class="text-white"
+            >
+              We are proud to itroduce our
+              <span style="font-family: 'Playfair Display', serif;"
+                >Video Blog.</span
+              >
+            </h2>
+            <p>
+              All the Lorem Ipsum generators on the Internet tend <br />
+              to repeat predefined chunks as necessary, making this the first
+              gen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container position-relative top-25">
+        <div class="row bg-white shadow-lg">
+          <div class="col-12 col-md-4 p-3">
+            <img
+              src="./images/video-placeholder-3.jpg"
+              class="img-fluid w-100 h-100"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-4 p-3">
+            <img
+              src="./images/video-placeholder-5.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-4 p-3">
+            <img
+              src="./images/video-placeholder-4.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top: 100px;">
+      <div class="container-fluid">
+        <div class="text-center">
+          <h3 class="mb-4" style="font-family: 'Playfair Display', serif;">
+            Only for you
+          </h3>
+          <h2>Our Chef <strong>Meals</strong></h2>
+          <p>
+            All the Lorem Ipsum generators on the Internet tend <br />
+            to repeat predefined chunks as necessary, making this the first gen.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card-hover position-relative">
+              <div>
+                <img
+                  class="img-fluid"
+                  src="./images/book-food-15.jpg.webp"
+                  alt=""
+                />
+              </div>
+              <div
+                class="position-absolute top-50 start-50 translate-middle text-center text-white opacity-0 city"
+              >
+                <p>Rameen</p>
+                <p>Cookbook</p>
+                <p>$33</p>
+                <a href="" class="btn border-white text-white border-3"
+                  >Add Cart</a
+                >
+              </div>
+              <div
+                class="d-flex flex-column position-absolute top-0 end-0 show-icon opacity-0"
+              >
+                <i class="mb-2 text-white fs-5 bi bi-shuffle"></i>
+                <i class="mb-2 text-white fs-5 bi bi-search"></i>
+                <i class="mb-2 text-white fs-5 bi bi-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card-hover position-relative">
+              <div>
+                <img
+                  class="img-fluid"
+                  src="./images/book-food-14.jpg.webp"
+                  alt=""
+                />
+              </div>
+              <div
+                class="position-absolute top-50 start-50 translate-middle text-center text-white opacity-0 city"
+              >
+                <p>Rameen</p>
+                <p>Cookbook</p>
+                <p>$33</p>
+                <a href="" class="btn border-white text-white border-3"
+                  >Add Cart</a
+                >
+              </div>
+              <div
+                class="d-flex flex-column position-absolute top-0 end-0 show-icon opacity-0"
+              >
+                <i class="mb-2 text-white fs-5 bi bi-shuffle"></i>
+                <i class="mb-2 text-white fs-5 bi bi-search"></i>
+                <i class="mb-2 text-white fs-5 bi bi-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card-hover position-relative">
+              <div>
+                <img
+                  class="img-fluid"
+                  src="./images/book-food-13.jpg.webp"
+                  alt=""
+                />
+              </div>
+              <div
+                class="position-absolute top-50 start-50 translate-middle text-center text-white opacity-0 city"
+              >
+                <p>Rameen</p>
+                <p>Cookbook</p>
+                <p>$33</p>
+                <a href="" class="btn border-white text-white border-3"
+                  >Add Cart</a
+                >
+              </div>
+              <div
+                class="d-flex flex-column position-absolute top-0 end-0 show-icon opacity-0"
+              >
+                <i class="mb-2 text-white fs-5 bi bi-shuffle"></i>
+                <i class="mb-2 text-white fs-5 bi bi-search"></i>
+                <i class="mb-2 text-white fs-5 bi bi-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 mb-5">
+            <div>
+              <img
+                src="./images/delicious.webp"
+                class="img-fluid mt-5"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-5">
+            <div>
+              <img src="./images/deliciuos 2.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-5">
+            <h1 class="mb-4" style="font-size:60px ; ">
+              Delicious, well- prepared
+              <span style="font-family: 'Playfair Display', serif;"
+                >Italian food.</span
+              >
+            </h1>
+            <p class="mb-4">
+              Also the leap into electronic typesetting, remaining essentially
+              unchanged. It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing.
+            </p>
+            <div class="mt-5">
+              <a href="" class="button">Read More</a>
+              <a href="" class="button btn-secondary ms-3">click Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-12 col-md-6 mb-5 text-end">
+            <h1 class="mb-4" style="font-size:60px ; ">
+              American cuisine with
+              <span style="font-family: 'Playfair Display', serif;"
+                >dijon & capers.</span
+              >
+            </h1>
+            <p class="mb-4">
+              Many desktop publishing packages and web page editors now use
+              Lorem Ipsum as their default model text, and a search for ‘lorem
+              ipsum’ will uncover many web sites still in their infancy. Various
+              versions have evolved over the years, sometimes by.
+            </p>
+            <div class="mt-5">
+              <a href="" class="button btn-secondary">click Me</a>
+              <a href="" class="button ms-3">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-5">
+            <div>
+              <img src="./images/delicius 3.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-5">
+            <div>
+              <img
+                src="./images/delicius 4.webp"
+                class="img-fluid mt-5"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h4 style="font-family: 'Playfair Display', serif;">
+              Testimonials
+            </h4>
+            <h2 style="font-size: 60px; font-weight: 700; ">
+              From our
+              <strong style="font-family: 'Playfair Display', serif;"
+                >Visitors</strong
+              >
+            </h2>
+            <p>
+              All the Lorem Ipsum generators on the Internet tend <br />
+              to repeat predefined chunks as necessary, making this the first
+              gen.
+            </p>
+          </div>
+        </div>
+        <div class="row py-5 mt-5 allslider">
+          <div class="col-12 col-md-10 text-center mx-auto slider slide-active">
+            <div>
+              <img
+                src="./images/man.webp"
+                class="img-fluid rounded-circle mb-4"
+                alt=""
+              />
+              <p>
+                Many desktop publishing packages and web page editors now use
+                Lorem Ipsum as their default model text, and a search for ‘lorem
+                ipsum’ will uncover many web sites still in their infancy.
+                Various versions have evolved over the years, sometimes by.
+              </p>
+              <h4>Adam Smith- <small class="fs-6">Software Engineer</small></h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 text-center mx-auto slider">
+            <div>
+              <img
+                src="./images/man2.webp"
+                class="img-fluid rounded-circle mb-4"
+                alt=""
+              />
+              <p>
+                Also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing.
+              </p>
+              <h4>Forhad Hossen- <small class="fs-6">Designer</small></h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 text-center mx-auto slider">
+            <div>
+              <img
+                src="./images/man3.webp"
+                class="img-fluid rounded-circle mb-4"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                porro cum explicabo! A rerum perferendis doloribus. Dolores, vel
+                animi accusantium ab in odit cumque fugit.
+              </p>
+              <h4>Nancy Naka- <small class="fs-6">Google Engineer</small></h4>
+            </div>
+          </div>
+          <div class="position-relative">
+            <a onclick="prev()" class="prev fs-1 position-relative top-50"
+              ><i class="bi bi-arrow-left-circle"></i
+            ></a>
+            <a onclick="next()" class="next position-absolute top-50 end-0 fs-1"
+              ><i class="bi bi-arrow-right-circle"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row g-0">
+          <div class="col-12 col-md-6 h-100">
+            <div class="map text-white text-center h-100">
+              <img class="img-fluid" src="./images/about img.png" alt="" />
+              <h4
+                class="mb-4"
+                style="  font-family: 'Playfair Display', serif;"
+              >
+                Book a Table
+              </h4>
+              <h2 class="mb-4">Make a <strong>Reservation</strong></h2>
+              <p class="" style="font-family:sans-serif ; line-height: 1.5;">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don’t look even
+                slightly believable. If you are going to use a passage.
+              </p>
+
+              <div class="row g-5">
+                <div class="col px-5">
+                  <select class="border border-secondary bg-transparent">
+                    <option value="22/6/2022">22/6/2022</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <p>
+                    <select
+                      class="border border-secondary bg-transparent"
+                      aria-label="Default select example"
+                    >
+                      <option class="text-white" selected>1 person</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <select
+                      class="border border-secondary bg-transparent"
+                      aria-label="Default select example"
+                    >
+                      <option class="text-white" selected>7.00 PM</option>
+                      <option value="1">9.00</option>
+                      <option value="2">10.00</option>
+                      <option value="3">11.00</option>
+                    </select>
+                  </p>
+                </div>
+              </div>
+              <a href="" class="button mt-5 d-inline-block">Find A Table</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 h-100">
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40654.71550131137!2d89.21601444363286!3d25.757244961185783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32de6fca6019b%3A0x9fa496e687f818c8!2sRangpur!5e0!3m2!1sen!2sbd!4v1654351860508!5m2!1sen!2sbd"
+                width="100%"
+                height="560"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 text-white">
+            <div>
+              <img
+                src="./images/wood-logo-white.svg"
+                class="img-fluid"
+                alt=""
+              />
+              <p class="my-4 opacity-75">
+                Condimentum adipiscing vel neque dis nam parturient orci at
+                scelerisque neque dis nam parturient.
+              </p>
+              <p class="fs-6 opacity-75">
+                <i class="bi bi-geo-alt"></i>451 Wall Street, UK, London
+              </p>
+              <p class="fs-6 opacity-75">
+                <i class="bi bi-phone"></i> Phone: (064) 332-1233
+              </p>
+              <p class="fs-6 opacity-75">
+                <i class="bi bi-envelope"></i> Fax: (099) 453-1357
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 text-white">
+            <div>
+              <h6>RECENT POSTS</h6>
+              <div class="d-flex mt-3">
+                <div>
+                  <img
+                    src="./images/blog-11-75x65.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="ps-2">
+                  <p><small>A companion for extra sleeping</small></p>
+                  <p><small>July 23, 2016 1 Comment</small></p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex mt-3">
+                <div>
+                  <img
+                    src="./images/blog-12-75x65.jpg"
+                    class="img-fluid h-75 w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="ps-2">
+                  <p><small>Outdoor seating collection inspiration</small></p>
+                  <p><small>July 23, 2016 1 Comment</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-2">
+            <div class="text-white text-start">
+              <h6>OUR STORES</h6>
+              <div class="text-start">
+                <div>
+                  <a href="" class="nav-link text-white opacity-75">New York</a>
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >London SF</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Cockfosters BP</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Los Angeles</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75">Chicago</a>
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Las Vegas</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-2">
+            <div class="text-white text-start">
+              <h6>USEFUL LINKS</h6>
+              <div class="text-start">
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Privacy Policy</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75">Returns</a>
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Terms & Conditions</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Contact Us</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Latest News</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Our Sitemap</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-2">
+            <div class="text-white text-start">
+              <h6>FOOTER MENU</h6>
+              <div class="text-start">
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Instagram profile</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >New Collection</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Woman Dress</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Contact Us</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Latest News</a
+                  >
+                </div>
+                <div>
+                  <a href="" class="nav-link text-white opacity-75"
+                    >Purchase Theme</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="opacity-75 text-white" />
+        <div class="d-flex justify-content-between">
+          <div class="text-white opacity-75">
+            <p>
+              WOODMART 2022 CREATED BY XTEMOS STUDIO. PREMIUM E-COMMERCE
+              SOLUTIONS.
+            </p>
+          </div>
+          <div>
+            <img src="./images/payments.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid position-relative">
+      <div class="position-fixed bottom-0 end-0 bg-dark mx-2 ps-2" id="icon">
+        <a
+          href="#"
+          class="fs-3 d-flex align-items-center justify-content-center"
+          ><i class="bi bi-caret-up"></i
+        ></a>
+      </div>
+    </div>
+
+    <script>
+      setInterval(function(){
+
+        if(document.getElementsByClassName('slider')[0].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[1].classList.add('slide-active');
+          document.getElementsByClassName('slider')[0].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[1].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[2].classList.add('slide-active');
+          document.getElementsByClassName('slider')[1].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[2].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[0].classList.add('slide-active');
+          document.getElementsByClassName('slider')[2].classList.remove('slide-active');
+        }
+      },3000);
+
+      function next(){
+        if(document.getElementsByClassName('slider')[0].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[1].classList.add('slide-active');
+          document.getElementsByClassName('slider')[0].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[1].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[2].classList.add('slide-active');
+          document.getElementsByClassName('slider')[1].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[2].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[0].classList.add('slide-active');
+          document.getElementsByClassName('slider')[2].classList.remove('slide-active');
+        }
+      };
+
+      function prev(){
+        if(document.getElementsByClassName('slider')[0].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[2].classList.add('slide-active');
+          document.getElementsByClassName('slider')[0].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[2].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[1].classList.add('slide-active');
+          document.getElementsByClassName('slider')[2].classList.remove('slide-active');
+        }
+        else if(document.getElementsByClassName('slider')[1].classList.contains('slide-active')){
+          document.getElementsByClassName('slider')[0].classList.add('slide-active');
+          document.getElementsByClassName('slider')[1].classList.remove('slide-active');
+        }
+      };
+
+      window.onscroll = function() {
+        let scrollNav = window.scrollY;
+        let nav = document.getElementById('nav');
+        let icon = document.getElementById('icon');
+
+        if(scrollNav>200){
+          nav.classList.add('nav-fixed');
+          icon.style.display = 'block';
+        }
+        else{
+          nav.classList.remove('nav-fixed');
+          icon.style.display = 'none';
+
+        }
+      }
+    </script>
+  </body>
+</html>
